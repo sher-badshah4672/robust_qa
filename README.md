@@ -60,22 +60,31 @@ We have changed the codebase in `train.py` so that it can evaluate multiple doma
 - Upload the csv file in `save/baseline-01` to the test leaderboard. For the validation leaderboard, run `python train.py --do-eval --sub-file mtl_submission_val.csv --save-dir save/baseline-01 --eval-dir datasets/oodomain_val`
 
 ## Code Structure
-.
+
+```
 ├── augment/
+│   ├── generators.py
+│   └── term_replacement.py    
+│
 ├── datasets/
-│ ├── indomain_train/
-│ ├── indomain_val/
-│ ├── oodomain_train/
-│ ├── oodomain_test/
-│ └── oodomain_val/
+│   ├── indomain_train/
+│   ├── indomain_val/
+│   ├── oodomain_train/
+│   ├── oodomain_test/
+│   └── oodomain_val/
+|
 ├── support/
+│   └── # Download supporting files from: https://github.com/searchableai/KitanaQA/tree/master/src/kitanaqa/support
+│   
 ├── convert_to_squad.py
 ├── data.py
 ├── environment.yml
 ├── lora.py
 ├── train.py
 └── util.py
-└── util.py
+
+```
+
 
 
 ## Results
