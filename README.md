@@ -63,17 +63,18 @@ We have changed the codebase in `train.py` so that it can evaluate multiple doma
 .
 ├── augment/
 ├── datasets/
-│   ├── indomain_train/
-│   ├── indomain_val/
-│   ├── oodomain_train/
-│   ├── oodomain_test/
-│   └── oodomain_val/
+│ ├── indomain_train/
+│ ├── indomain_val/
+│ ├── oodomain_train/
+│ ├── oodomain_test/
+│ └── oodomain_val/
 ├── support/
 ├── convert_to_squad.py
 ├── data.py
 ├── environment.yml
 ├── lora.py
 ├── train.py
+└── util.py
 └── util.py
 
 
