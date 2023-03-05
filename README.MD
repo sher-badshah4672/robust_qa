@@ -59,7 +59,9 @@ We have changed the codebase in `train.py` so that it can evaluate multiple doma
 - Evaluate the system on test set with `python train.py --do-eval --sub-file mtl_submission.csv --save-dir save/baseline-01`
 - Upload the csv file in `save/baseline-01` to the test leaderboard. For the validation leaderboard, run `python train.py --do-eval --sub-file mtl_submission_val.csv --save-dir save/baseline-01 --eval-dir datasets/oodomain_val`
 
-## Code Structure
+## Code Structure    
+
+├── ...
 ├── augment/
 ├── datasets
 |   ├── indomain_train/
@@ -75,6 +77,7 @@ We have changed the codebase in `train.py` so that it can evaluate multiple doma
 ├── lora.py ## Implement PeftQuestionAnswering model
 ├── train.py ## Main inteface
 ├── util.py ## Utilities function
+└── ...
 
 ## Results
 | Method | Dataset | F1 | EM |
