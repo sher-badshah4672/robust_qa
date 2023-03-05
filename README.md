@@ -66,7 +66,7 @@ We have changed the codebase in `train.py` so that it can evaluate multiple doma
 │   ├── generators.py
 │   └── term_replacement.py    
 │
-├── datasets/
+├── datasets/ # Download datasets from https://drive.google.com/file/d/1Fv2d30hY-2niU7t61ktnMsi_HUXS6-Qx/view
 │   ├── indomain_train/
 │   ├── indomain_val/
 │   ├── oodomain_train/
