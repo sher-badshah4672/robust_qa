@@ -77,9 +77,6 @@ We have changed the codebase in `train.py` so that it can evaluate multiple doma
 └── util.py
 
 
-
-
-
 ## Results
 | Method | Dataset | F1 | EM |
 | --- | --- | --- | --- |
